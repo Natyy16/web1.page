@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>formulário.</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>Formulário</h2>
+   <form style="max-width: 1000px">
+    <fieldset>
+      <legend>Dados pessoais.</legend>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="aniversário">Nascimento:</label>
+      <input type="date" id="aniversário" name="Nascimento"><br>
+      <label for="endereço">Endereço:</label>
+      <input type="text" id="endereço" name="endereço"><br>
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro" name="bairro">
+      <label for="Cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade"><br>
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep">
+      <label for="estado">Estado:</label>
+      <select id="UF" name="UF">
+        <option value="">Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados profissionais.</legend>
+      <p>Natureza do Cargo.</p>
+      <input type="radio" id="gerência" name="cargo">
+      <label for="gerência">Gerência</label>
+      <input type="radio" id="finaceiro" name="cargo">
+      <label for="financeiro">Financeiro</label>
+      <input type="radio" id="recepção" name="cargo">
+      <label for="recepção">Recepção</label>
+      <input type="radio" id="administrativo" name="cargo">
+      <label for="administrativo">Administrativo</label>
+      <input type="radio" id="jurídico" name="cargo">
+      <label for="jurídico">Jurídico</label>
+
+      <p>Área de interesse.</p>
+      <input type="checkbox" id="computação" name="área" value="computação">
+      <label for="computação">Computação</label>
+      <input type="checkbox" id="química" name="área" value="química">
+      <label for="química">Química</label>
+      <input type="checkbox" id="meio ambiente" name="área" value="meio ambiente">
+      <label for="meio ambiente">Meio Ambiente</label>
+      <input type="checkbox" id="engenharia" name="área" value="engenharia">
+      <label for="engenharia">Engenharia</label>
+      <input type="checkbox" id="matemática" name="área" value="matemática">
+      <label for="matemática">Matemática</label>
+
+      <p>Mini-curriculo:</p>
+      <textarea cols="70" rows="10" maxlength="250" placeholder="Digite a sua mensagem"></textarea>
+
+    </fieldset>
+
+    <br>
+
+      <button><a href="html.tabela">Enviar</a></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
